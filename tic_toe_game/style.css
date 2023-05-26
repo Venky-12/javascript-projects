@@ -1,0 +1,38 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+#gameContainer{
+    background-color: skyblue;
+    font-family: "Permanent Marker",cursive;
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 235px;
+    margin: auto;
+}
+h1{
+    color: purple;
+}
+#restartBtn{
+    
+    
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: yellow;
+}
+
+body{
+    background-color: skyblue;
+}
